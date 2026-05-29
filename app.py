@@ -272,7 +272,7 @@ if check_password():
                     writer.close()
                     processed_data = output.getvalue()
                     
-                    st.success(f"✅ Data berhasil diekstrak menjadi {len(sorted_sheets)} sheet bulanan, suksme.")
+                    st.success(f"✅ Data berhasil diekstrak menjadi {len(sorted_sheets)} sheet bulanan.")
                     
                     st.download_button(
                         label="📥 Unduh File Excel Sekarang",
