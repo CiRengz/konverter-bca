@@ -30,7 +30,7 @@ def check_password():
 
 # --- APLIKASI UTAMA (Hanya Terbuka Jika Sandi Benar) ---
 if check_password():
-    st.title("🏦 BCA e-Statement to Excel Converter")
+    st.title("🏦 MANDIRI e-Statement to Excel Converter")
     st.write("Unggah file PDF e-Statement BCA secara satuan atau massal. Sistem akan mengekstrak transaksi, memisahkan bulan ke dalam sheet, dan mengkalkulasi saldo secara otomatis.")
 
     # Fungsi bantuan
